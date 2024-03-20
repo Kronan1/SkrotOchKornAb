@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt formulär</title>
+</head>
+
+<body>
+    <form action="removed" method="post">
+
+        <a href="index.html">Startsida</a>
+        <a href="productpage.html">Produkter</a>
+        <a href="contactus.html">Kontakta oss</a>
+        <a href="contactform.html">Kontakt formulär</a>
+        <a href="media.html">Media</a>
+
+        <h3>Kontaktformulär</h3>
+
+        <br><br>
+        <label for="name">Namn</label>
+        <br>
+        <input type="text" name="name" id="name">
+
+        <br><br>
+        <label for="address">Adress</label>
+        <br>
+        <input type="text" name="address" id="address">
+
+        <br><br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+        <label for="phonenumber">Telefonnummer</label>
+        <br>
+        <input type="tel" name="phonenumber" id="phonenumber">
+
+        <br><br>
+        <input type="radio" name="customertype" id="private" value="private">
+        <label for="private">Privat</label>
+
+        <br>
+        <input type="radio" name="customertype" id="business" value="business">
+        <label for="business">Företag</label>
+
+        <br><br>
+        <input type="radio" name="companysize" id="size1" value="1-100">
+        <label for="size1">1-100 anställda</label>
+
+        <br>
+        <input type="radio" name="companysize" id="size2" value="101-1000">
+        <label for="size2">101-1000 anställda</label>
+
+        <br>
+        <input type="radio" name="companysize" id="size3" value="1000+">
+        <label for="size3">Mer än 1000 anställda</label>
+
+        <br><br>
+        <label for="question">Fråga</label>
+        <br>
+        <textarea name="question" id="question" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+        <input type="checkbox" name="newsletter" id="newsletter" value="ja">
+        <label for="newsletter">Vill du ha nyhetsbrev?</label>
+        <input type="hidden" name="newsletter" value="nej">
+
+        <br>
+        <br>
+        <input type="checkbox" name="contactbyphone" id="contactbyphone" value="ja">
+        <label for="contactbyphone">Vill du bli kontaktad per telefon?</label>
+        <input type="hidden" name="contactbyphone" value="nej">
+
+        <br><br>
+        <input type="submit" value="Skicka">
+
+    </form>
+</body>
+
+</html>
